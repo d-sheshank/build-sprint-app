@@ -1,26 +1,26 @@
 [
   {
-    "title": "Shape and ship a new product concept",
-    "requirement": "Partner with founders, product, and design to turn a concept into a polished user-facing feature.",
-    "situation": "At [company], users faced [user problem] in [project], and the team was exploring [concept].",
-    "task": "I was responsible for helping define the problem and taking a useful solution from idea through launch.",
-    "action": "I [actions you actually took, such as clarified user needs with product and design, explored interaction options, built the UI and supporting full-stack functionality, and incorporated feedback before shipping].",
-    "result": "The feature’s verified effect was [verified outcome], measured by [metric and actual outcome: xx]."
+    "title": "Taking a feature from concept to launch",
+    "requirement": "Work with product and design to shape and deliver a customer-facing feature end to end.",
+    "situation": "At [company], I was working on [project] when [user problem] made a new product concept worth exploring.",
+    "task": "I needed to help define the problem and take the feature from an early idea through implementation and release.",
+    "action": "I [actions you actually took to clarify the user need with product and design], [actions you actually took to shape the scope and user experience], then [actions you actually took to build, review, and ship the feature].",
+    "result": "The feature reached [users or audience], with a measurable outcome of [metric and actual outcome: xx]."
   },
   {
-    "title": "Build AI-powered functionality",
-    "requirement": "Build AI-powered functionality into a core product experience.",
-    "situation": "At [company], [user problem] created an opportunity to consider AI support in [project].",
-    "task": "I needed to help shape an AI-powered experience that addressed the user need and fit naturally into the product.",
-    "action": "I [actions you actually took, such as defined the user workflow, prototyped the interaction, implemented the relevant product and server-side changes, and evaluated edge cases and user feedback].",
-    "result": "The verified outcome was [verified outcome], measured by [metric and actual outcome: xx]."
+    "title": "Building AI-powered functionality",
+    "requirement": "Build AI-powered functionality into a product’s core experience.",
+    "situation": "At [company], users encountered [user problem] while using [project or product area], creating an opportunity to consider an AI-powered workflow.",
+    "task": "I was responsible for determining how an AI capability could address the problem and fit into the existing user experience.",
+    "action": "I [actions you actually took to investigate the workflow and define the AI-assisted experience], [actions you actually took to implement and integrate it], and [actions you actually took to evaluate behavior and refine the experience].",
+    "result": "The work had a measurable outcome of [metric and actual outcome: xx], based on [how the outcome was verified]."
   },
   {
-    "title": "Improve application performance",
-    "requirement": "Identify and address application performance issues to improve speed and product quality.",
-    "situation": "At [company], users encountered [user problem] while using [project or product area].",
-    "task": "I took responsibility for investigating the performance concern and identifying a practical path to address it.",
-    "action": "I [actions you actually took, such as reproduced the slow experience, examined relevant performance data, traced the source, implemented a targeted change, and checked the experience afterward].",
-    "result": "The verified performance outcome was [verified outcome], measured by [metric and actual outcome: xx]."
+    "title": "Improving application performance",
+    "requirement": "Identify and address performance issues to make the application faster and more responsive.",
+    "situation": "At [company], [users or team] experienced [user problem] in [project or application area].",
+    "task": "I needed to investigate the cause and make a targeted improvement without compromising the user experience.",
+    "action": "I [actions you actually took to reproduce and measure the issue], [actions you actually took to identify the bottleneck], then [actions you actually took to implement and validate a change].",
+    "result": "The verified performance outcome was [metric and actual outcome: xx], measured by [measurement method]."
   }
 ]

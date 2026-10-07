@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Checkout redesign",
+    "requirement": "I take ownership of customer-facing product work and improve the user experience.",
+    "situation": "At Acme, the checkout experience needed a redesign.",
+    "task": "I led the redesign to improve conversion.",
+    "action": "I led the checkout redesign. [Specific design and implementation details: xx]",
+    "result": "Conversion increased by 12%. [Time taken: xx]",
+    "evidence": [
+      {
+        "calculation": null,
+        "end": 27,
+        "field": "result",
+        "label": "from your notes",
+        "quote": "Led checkout redesign at Acme, conversion up 12%. Managed team of 6. Cut infra cost from 40k to 28k per month.",
+        "start": 24,
+        "value": "12%"
+      }
+    ]
+  },
+  {
+    "title": "Team leadership",
+    "requirement": "I can help a lean team execute effectively while taking responsibility for delivery.",
+    "situation": "At Acme, I managed a team.",
+    "task": "I was responsible for managing the team and its work.",
+    "action": "I managed a team of 6. [How I organized the work: xx]",
+    "result": "[Delivery or team outcome: xx] [Time period: xx]",
+    "evidence": [
+      {
+        "calculation": null,
+        "end": 21,
+        "field": "action",
+        "label": "from your notes",
+        "quote": "Led checkout redesign at Acme, conversion up 12%. Managed team of 6. Cut infra cost from 40k to 28k per month.",
+        "start": 20,
+        "value": "6"
+      }
+    ]
+  },
+  {
+    "title": "Infrastructure cost reduction",
+    "requirement": "I look for opportunities to improve performance and operational efficiency.",
+    "situation": "At Acme, infrastructure cost was 40k per month.",
+    "task": "I worked to reduce that monthly cost.",
+    "action": "[Actions I took to reduce infrastructure cost: xx]",
+    "result": "Monthly infrastructure cost fell from 40k to 28k, a saving of 12k. [Time taken: xx]",
+    "evidence": [
+      {
+        "calculation": null,
+        "end": 36,
+        "field": "situation",
+        "label": "from your notes",
+        "quote": "Led checkout redesign at Acme, conversion up 12%. Managed team of 6. Cut infra cost from 40k to 28k per month.",
+        "start": 33,
+        "value": "40k"
+      },
+      {
+        "calculation": null,
+        "end": 41,
+        "field": "result",
+        "label": "from your notes",
+        "quote": "Led checkout redesign at Acme, conversion up 12%. Managed team of 6. Cut infra cost from 40k to 28k per month.",
+        "start": 38,
+        "value": "40k"
+      },
+      {
+        "calculation": null,
+        "end": 48,
+        "field": "result",
+        "label": "from your notes",
+        "quote": "Led checkout redesign at Acme, conversion up 12%. Managed team of 6. Cut infra cost from 40k to 28k per month.",
+        "start": 45,
+        "value": "28k"
+      },
+      {
+        "calculation": "40k - 28k = 12k, both from your notes",
+        "end": 65,
+        "field": "result",
+        "label": "calculated",
+        "quote": "Led checkout redesign at Acme, conversion up 12%. Managed team of 6. Cut infra cost from 40k to 28k per month.",
+        "start": 62,
+        "value": "12k"
+      }
+    ]
+  }
+]

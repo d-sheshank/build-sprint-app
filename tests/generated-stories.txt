@@ -1,36 +1,36 @@
-Shape and ship a new product concept
+Taking a feature from concept to launch
 
-For this role: Partner with founders, product, and design to turn a concept into a polished user-facing feature.
-
-Situation
-At [company], users faced [user problem] in [project], and the team was exploring [concept].
-Task
-I was responsible for helping define the problem and taking a useful solution from idea through launch.
-Action
-I [actions you actually took, such as clarified user needs with product and design, explored interaction options, built the UI and supporting full-stack functionality, and incorporated feedback before shipping].
-Result
-The feature’s verified effect was [verified outcome], measured by [metric and actual outcome: xx].
-Build AI-powered functionality
-
-For this role: Build AI-powered functionality into a core product experience.
+For this role: Work with product and design to shape and deliver a customer-facing feature end to end.
 
 Situation
-At [company], [user problem] created an opportunity to consider AI support in [project].
+At [company], I was working on [project] when [user problem] made a new product concept worth exploring.
 Task
-I needed to help shape an AI-powered experience that addressed the user need and fit naturally into the product.
+I needed to help define the problem and take the feature from an early idea through implementation and release.
 Action
-I [actions you actually took, such as defined the user workflow, prototyped the interaction, implemented the relevant product and server-side changes, and evaluated edge cases and user feedback].
+I [actions you actually took to clarify the user need with product and design], [actions you actually took to shape the scope and user experience], then [actions you actually took to build, review, and ship the feature].
 Result
-The verified outcome was [verified outcome], measured by [metric and actual outcome: xx].
-Improve application performance
+The feature reached [users or audience], with a measurable outcome of [metric and actual outcome: xx].
+Building AI-powered functionality
 
-For this role: Identify and address application performance issues to improve speed and product quality.
+For this role: Build AI-powered functionality into a product’s core experience.
 
 Situation
-At [company], users encountered [user problem] while using [project or product area].
+At [company], users encountered [user problem] while using [project or product area], creating an opportunity to consider an AI-powered workflow.
 Task
-I took responsibility for investigating the performance concern and identifying a practical path to address it.
+I was responsible for determining how an AI capability could address the problem and fit into the existing user experience.
 Action
-I [actions you actually took, such as reproduced the slow experience, examined relevant performance data, traced the source, implemented a targeted change, and checked the experience afterward].
+I [actions you actually took to investigate the workflow and define the AI-assisted experience], [actions you actually took to implement and integrate it], and [actions you actually took to evaluate behavior and refine the experience].
 Result
-The verified performance outcome was [verified outcome], measured by [metric and actual outcome: xx].
+The work had a measurable outcome of [metric and actual outcome: xx], based on [how the outcome was verified].
+Improving application performance
+
+For this role: Identify and address performance issues to make the application faster and more responsive.
+
+Situation
+At [company], [users or team] experienced [user problem] in [project or application area].
+Task
+I needed to investigate the cause and make a targeted improvement without compromising the user experience.
+Action
+I [actions you actually took to reproduce and measure the issue], [actions you actually took to identify the bottleneck], then [actions you actually took to implement and validate a change].
+Result
+The verified performance outcome was [metric and actual outcome: xx], measured by [measurement method].

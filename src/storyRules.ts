@@ -5,6 +5,18 @@ export type Story = {
   task: string;
   action: string;
   result: string;
+  evidence?: NumberEvidence[];
+};
+
+export type StoryField = 'title' | 'requirement' | 'situation' | 'task' | 'action' | 'result';
+export type NumberEvidence = {
+  field: StoryField;
+  start: number;
+  end: number;
+  value: string;
+  label: 'from your notes' | 'calculated';
+  quote: string;
+  calculation: string | null;
 };
 
 // Reject rather than guess whether a number came from the candidate or the JD.
