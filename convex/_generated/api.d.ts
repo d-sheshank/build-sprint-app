@@ -8,7 +8,6 @@
  * @module
  */
 
-import type * as probe from "../probe.js";
 import type * as stories from "../stories.js";
 
 import type {
@@ -18,7 +17,6 @@ import type {
 } from "convex/server";
 
 declare const fullApi: ApiFromModules<{
-  probe: typeof probe;
   stories: typeof stories;
 }>;
 
