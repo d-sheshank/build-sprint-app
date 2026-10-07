@@ -1,36 +1,36 @@
-Taking a feature from concept to launch
+Shape and ship a new product concept
 
-For this role: Partner with product and design to shape and deliver a full-stack, user-facing feature.
+For this role: Partner with founders, product, and design to turn a concept into a polished user-facing feature.
 
 Situation
-At [company], I encountered [user problem] affecting [users or workflow].
+At [company], users faced [user problem] in [project], and the team was exploring [concept].
 Task
-I was responsible for shaping a solution with [product, design, and engineering partners] and carrying it through to release.
+I was responsible for helping define the problem and taking a useful solution from idea through launch.
 Action
-I [how you clarified the problem and aligned on scope], then [how you designed and built the user experience and supporting full-stack functionality]. I [how you tested, refined, and shipped the feature].
+I [actions you actually took, such as clarified user needs with product and design, explored interaction options, built the UI and supporting full-stack functionality, and incorporated feedback before shipping].
 Result
-The feature’s verified effect on [relevant user or product metric] was [verified outcome; metric and actual outcome: xx].
-Building AI into a product workflow
+The feature’s verified effect was [verified outcome], measured by [metric and actual outcome: xx].
+Build AI-powered functionality
 
 For this role: Build AI-powered functionality into a core product experience.
 
 Situation
-At [company], [user problem] created an opportunity to add AI support to [product workflow].
+At [company], [user problem] created an opportunity to consider AI support in [project].
 Task
-I owned [project] and needed to identify a useful AI-enabled experience that fit users’ needs and the product’s expectations.
+I needed to help shape an AI-powered experience that addressed the user need and fit naturally into the product.
 Action
-I [how you explored the workflow and shaped the concept], then [how you implemented the AI interaction and connected it to the surrounding product experience]. I [how you handled evaluation, edge cases, and polish before release].
+I [actions you actually took, such as defined the user workflow, prototyped the interaction, implemented the relevant product and server-side changes, and evaluated edge cases and user feedback].
 Result
-The verified outcome for [relevant adoption, quality, or user-effort metric] was [verified outcome; metric and actual outcome: xx].
-Improving application performance
+The verified outcome was [verified outcome], measured by [metric and actual outcome: xx].
+Improve application performance
 
-For this role: Identify and address performance problems in the application.
+For this role: Identify and address application performance issues to improve speed and product quality.
 
 Situation
-At [company], [user problem] made [part of the application or workflow] feel slow or unreliable.
+At [company], users encountered [user problem] while using [project or product area].
 Task
-I took ownership of investigating the cause and improving the experience without compromising product quality.
+I took responsibility for investigating the performance concern and identifying a practical path to address it.
 Action
-I [how you reproduced and measured the problem], then [how you traced the relevant frontend or backend work and identified a bottleneck]. I [the optimization or fix you actually made] and [how you verified it and checked for regressions].
+I [actions you actually took, such as reproduced the slow experience, examined relevant performance data, traced the source, implemented a targeted change, and checked the experience afterward].
 Result
-The verified change in [relevant performance metric] was [verified outcome; metric and actual outcome: xx].
+The verified performance outcome was [verified outcome], measured by [metric and actual outcome: xx].
