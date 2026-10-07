@@ -30,9 +30,7 @@ function App() {
   const [stories, setStories] = useState<Story[]>([]);
   const [busy, setBusy] = useState(false);
   const [notes, setNotes] = useState('');
-  const [generatedJd, setGeneratedJd] = useState('');
   const [usedNotes, setUsedNotes] = useState(false);
-  const [notesError, setNotesError] = useState('');
   const [error, setError] = useState('');
   async function submit(event: FormEvent) {
     event.preventDefault();
@@ -43,30 +41,12 @@ function App() {
       return;
     }
     setBusy(true);
-    setNotesError('');
     try {
-      setStories(await generate({ jobDescription: jd }));
-      setGeneratedJd(jd.trim());
-      setUsedNotes(false);
-      setNotes('');
+      const optionalNotes = notes.trim() ? notes : undefined;
+      setStories(await generate({ jobDescription: jd, ...(optionalNotes ? { notes: optionalNotes } : {}) }));
+      setUsedNotes(Boolean(optionalNotes));
     } catch (error) {
       setError(error instanceof ConvexError && typeof error.data === 'string' ? error.data : 'Could not generate your drafts. Please try again.');
-    } finally {
-      setBusy(false);
-    }
-  }
-  async function regenerate(event: FormEvent) {
-    event.preventDefault();
-    if (busy || !notes.trim()) return;
-    setNotesError('');
-    setError('');
-    setBusy(true);
-    try {
-      const updated = await generate({ jobDescription: generatedJd, notes });
-      setStories(updated);
-      setUsedNotes(true);
-    } catch (error) {
-      setNotesError(error instanceof ConvexError && typeof error.data === 'string' ? error.data : 'Could not update your stories. Please try again.');
     } finally {
       setBusy(false);
     }
@@ -82,18 +62,16 @@ function App() {
           <p className="help" id="jd-help">Paste the role’s responsibilities and requirements.</p>
           <textarea id="jd" aria-describedby="jd-help jd-note" maxLength={20000} value={jd} onChange={event => setJd(event.target.value)} disabled={busy} placeholder="Paste the job description here…" spellCheck={false}/>
           <p className="help" id="jd-note">Only a job description is needed. Your drafts stay on this page until you close or refresh it.</p>
+          <div className="notes-pane">
+            <h2>Make these stories yours</h2>
+            <label htmlFor="notes">Profile or notes (optional)</label>
+            <p id="notes-help" className="help">Paste your profile, past projects or achievements, or leave this blank to start with just the job description.</p>
+            <textarea id="notes" aria-describedby="notes-help notes-note" value={notes} onChange={event => setNotes(event.target.value)} maxLength={20000} disabled={busy} placeholder="What did you work on? What changed?"/>
+            <p id="notes-note" className="help">Numbers will link to your exact notes or show how they were calculated. Missing numbers stay xx. Your notes stay on this page until you close or refresh it.</p>
+          </div>
           {error && <p role="alert" className="error">{error}</p>}
-          <button type="submit" disabled={busy || !jd.trim()}>{busy ? 'Preparing your stories…' : stories.length ? 'Generate new stories' : 'Generate three stories'}<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="m8 5 5 5-5 5" stroke="currentColor" strokeWidth="1.8" fill="none"/></svg></button>
-        </form>
-        {stories.length > 0 && jd.trim() === generatedJd && <form onSubmit={regenerate} className="notes-pane">
-          <h2>Make these stories yours</h2>
-          <label htmlFor="notes">Your notes</label>
-          <p id="notes-help" className="help">Paste your profile, past projects or achievements. Include numbers you can back up.</p>
-          <textarea id="notes" aria-describedby="notes-help notes-note" value={notes} onChange={event => setNotes(event.target.value)} maxLength={20000} disabled={busy} placeholder="What did you work on? What changed?"/>
-          <p id="notes-note" className="help">Numbers will link to your exact notes or show how they were calculated. Missing numbers stay xx. Your notes stay on this page until you close or refresh it.</p>
-          {notesError && <p role="alert" className="error">{notesError}</p>}
-          <button type="submit" disabled={busy || !notes.trim()}>{busy ? 'Preparing your stories…' : 'Update stories from my notes'}</button>
-        </form>}</div>
+          <button type="submit" disabled={busy || !jd.trim()}>{busy ? 'Preparing your stories…' : stories.length ? notes.trim() ? 'Update stories from my notes' : 'Generate new stories' : 'Generate three stories'}<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="m8 5 5 5-5 5" stroke="currentColor" strokeWidth="1.8" fill="none"/></svg></button>
+        </form></div>
         <section className="output-pane" aria-labelledby="drafts-heading" aria-busy={busy}>
           <div className="output-heading"><h2 id="drafts-heading">Your story drafts</h2><span className="draft-label">Start with what’s true</span></div>
           <p className="notice">{usedNotes ? <>These drafts use your notes. Click a number’s label to check its source. <strong>xx</strong> and <strong>[brackets]</strong> still need your real details.</> : <>These are starting points, not claims about your experience. Replace <strong>xx</strong> with verified numbers and <strong>[brackets]</strong> with details that actually happened.</>}</p>

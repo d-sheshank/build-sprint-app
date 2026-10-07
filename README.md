@@ -1,6 +1,6 @@
 # Story prep — milestones 1 and 2
 
-Paste a job description and receive exactly three STAR story drafts with `xx` blanks, just as in milestone 1. After those drafts appear, paste your profile, past projects, or achievements into the notes box and regenerate using the same JD plus your notes. Unknown details stay in brackets and missing numerical facts stay `xx`. There is no login, file upload, ranking, export, fact bank, or saved history.
+Paste a job description and receive exactly three STAR story drafts with `xx` blanks, just as in milestone 1. Optionally paste your profile, past projects, or achievements on the landing page before generating. Leave it blank for JD-only drafts, or add and edit notes afterward to regenerate with the current JD plus your notes. Unknown details stay in brackets and missing numerical facts stay `xx`. There is no login, file upload, ranking, export, fact bank, or saved history.
 
 Each numerical occurrence in the updated stories has a clickable label. **From your notes** quotes the exact original input line; **calculated** shows the arithmetic and the exact source lines. The model references a server-built catalog rather than writing numerical values. The server resolves references, rejects unsupported numbers, and performs sums or differences using exact decimal arithmetic. Calculations require distinct catalog inputs with matching currency and scale suffixes. The original JD-only validator is unchanged. Notes and their source quotes are held on the page, not persisted.
 

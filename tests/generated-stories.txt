@@ -1,36 +1,36 @@
-Taking a feature from idea to launch
+Taking a feature from concept to launch
 
-For this role: Work with product and design to shape and deliver a new user-facing feature.
-
-Situation
-At [company], I encountered [user problem] that called for a new product capability.
-Task
-I was responsible for helping define the approach and taking [feature or project] from concept through delivery.
-Action
-I [how you partnered with product, design, or founders to clarify the problem], [how you shaped the scope and UX], and [the implementation and coordination steps you actually took to build, test, and ship it].
-Result
-The feature reached [intended users or audience]. Its verified effect was [metric and actual outcome: xx].
-Improving the collaborative editor
-
-For this role: Update a collaborative content editor used across product surfaces.
+For this role: Work with product and design to shape and implement a new user-facing feature.
 
 Situation
-At [company], [user problem] made an existing collaborative editing experience harder to use across [relevant surfaces].
+At [company], [user problem] created an opportunity for [project]. The concept was still taking shape, and [relevant constraints or context].
 Task
-I owned [editor change or project] to address the problem while preserving a clear, consistent experience.
+I was responsible for helping define the problem and taking the feature through implementation and launch.
 Action
-I [how you identified the editor issue], [the changes you actually made to the editing experience or shared components], and [how you checked behavior across relevant surfaces and handled feedback].
+I [how you collaborated with product, design, or founders to clarify the user need], [how you shaped or challenged the proposed experience], and [actions you actually took to build, refine, test, and ship the feature].
 Result
-The verified outcome was [metric and actual outcome: xx], measured by [how the effect was assessed].
-Making the application faster
+The verified outcome was [verified outcome], measured by [metric and actual outcome: xx].
+Building AI-powered functionality
 
-For this role: Identify and deliver improvements to application performance.
+For this role: Build AI-powered functionality into a core product experience.
 
 Situation
-At [company], [user problem] indicated that performance in [relevant product area] needed attention.
+At [company], [user problem] made [project] a candidate for an AI-powered workflow. The key challenge was [what needed to work well for users].
 Task
-I was responsible for investigating the slowdown and delivering a targeted improvement.
+I owned [your actual responsibility] in shaping and delivering an AI-powered product experience.
 Action
-I [how you reproduced or measured the issue], [how you identified the cause], and [the code or system changes you actually made], then [how you validated the change].
+I [how you investigated the user need and defined the workflow], [actions you actually took to implement and integrate the experience], and [how you evaluated its usefulness, reliability, and fit with the product].
 Result
-The verified performance outcome was [metric and actual outcome: xx], measured using [relevant measurement].
+The verified outcome was [verified outcome], measured by [metric and actual outcome: xx].
+Improving application performance
+
+For this role: Identify and address application performance issues.
+
+Situation
+At [company], [user problem] was associated with [slow or resource-intensive product experience] in [project or surface].
+Task
+I was responsible for investigating the performance issue and delivering an improvement without compromising the user experience.
+Action
+I [how you identified and reproduced the bottleneck], [actions you actually took to isolate and address its cause], and [how you checked the change and safeguarded the experience].
+Result
+The verified outcome was [verified outcome], measured by [performance metric and actual outcome: xx].

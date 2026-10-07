@@ -6,7 +6,9 @@ test('paste a real job description and receive exactly three drafts with blank n
   await page.goto('/');
   const button = page.getByRole('button', { name: 'Generate three stories' });
   await expect(button).toBeDisabled();
-  await expect(page.getByLabel('Your notes', { exact: true })).toHaveCount(0);
+  await expect(page.getByLabel('Profile or notes (optional)', { exact: true })).toBeVisible();
+  const profile = page.getByLabel('Profile or notes (optional)', { exact: true });
+  await profile.fill('   ');
   const input = page.getByLabel('Job description', { exact: true });
   await input.fill('Too short');
   await button.click();
@@ -28,7 +30,7 @@ test('paste a real job description and receive exactly three drafts with blank n
   await page.screenshot({path:'/tmp/story-prep-generated.png',fullPage:true});
   await expect(page.getByRole('button', { name: 'Generate new stories' })).toBeEnabled();
   const notes = 'Led checkout redesign at Acme, conversion up 12%. Managed team of 6. Cut infra cost from 40k to 28k per month.';
-  await page.getByLabel('Your notes', { exact: true }).fill(notes);
+  await page.getByLabel('Profile or notes (optional)', { exact: true }).fill(notes);
   await page.getByRole('button', { name: 'Update stories from my notes' }).click();
   await expect(page.getByRole('button', { name: 'Update stories from my notes' })).toBeEnabled({timeout:75000});
   await expect(page.getByRole('alert')).toHaveCount(0);
@@ -77,4 +79,19 @@ test('paste a real job description and receive exactly three drafts with blank n
   await expect(page.getByRole('dialog',{name:'Number source'})).toBeVisible();
   await page.screenshot({path:'/tmp/story-prep-source-mobile.png',fullPage:true});
   await page.keyboard.press('Escape');
+  // A new visitor can provide their profile before generating any stories.
+  await page.goto('/');
+  await page.getByLabel('Profile or notes (optional)', {exact:true}).fill(notes);
+  await expect(page.getByRole('button',{name:'Generate three stories'})).toBeDisabled();
+  await page.getByLabel('Job description',{exact:true}).fill(await readFile('tests/real-jd.txt','utf8'));
+  await page.getByRole('button',{name:'Generate three stories'}).click();
+  await expect(page.getByRole('status').filter({hasText:'Your three drafts are ready.'}).or(page.getByRole('alert'))).toBeVisible({timeout:75000});
+  await expect(page.getByRole('alert')).toHaveCount(0);
+  await expect(page.getByRole('article')).toHaveCount(3);
+  await expect(page.getByLabel('Profile or notes (optional)',{exact:true})).toHaveValue(notes);
+  expect(await page.locator('.number-source').count()).toBeGreaterThan(0);
+  await page.locator('.number-source').first().click();
+  await expect(page.getByRole('dialog',{name:'Number source'}).locator('blockquote')).toHaveText(notes);
+  await page.keyboard.press('Escape');
+  await page.screenshot({path:'/tmp/story-prep-optional-profile-mobile.png',fullPage:true});
 });

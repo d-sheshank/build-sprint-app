@@ -1,11 +1,11 @@
 Checkout redesign
 
-For this role: Own a customer-facing product improvement and deliver a measurable user impact.
+For this role: Own a customer-facing feature end to end, with a measurable product impact.
 
 Situation
-At Acme, the checkout experience needed a redesign.
+At Acme, the checkout experience was a key customer-facing flow.
 Task
-I led the work to improve the checkout experience and conversion.
+I led its redesign to improve conversion.
 Action
 I led the checkout redesign. [Specific design and implementation details: xx]
 Result
@@ -13,26 +13,26 @@ Conversion increased by 12%. [Time taken: xx]
 
 Team management
 
-For this role: Take ownership and help a team deliver effectively.
+For this role: Take ownership and help a lean team deliver effectively.
 
 Situation
 At Acme, I managed a team.
 Task
-I was responsible for managing the team and supporting its work.
+I was responsible for managing the team and its work.
 Action
-I managed a team of 6. [Specific management actions: xx]
+I managed a team of 6. [How I supported the team: xx]
 Result
-[Team outcome: xx] [Time period: xx]
+[Team outcome: xx] [Time taken: xx]
 
 Infrastructure cost reduction
 
-For this role: Improve operational efficiency while maintaining ownership of product systems.
+For this role: Improve the efficiency and scalability of the product’s systems.
 
 Situation
 At Acme, infrastructure cost was 40k per month.
 Task
 I worked to reduce the monthly infrastructure cost.
 Action
-[Specific actions taken: xx]
+I took action to reduce that cost. [Specific actions: xx]
 Result
-Monthly infrastructure cost fell from 40k to 28k, a saving of 12k. [Time taken: xx]
+Monthly cost went from 40k to 28k, a saving of 12k. [Time taken: xx]

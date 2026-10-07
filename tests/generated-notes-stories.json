@@ -1,9 +1,9 @@
 [
   {
     "title": "Checkout redesign",
-    "requirement": "Own a customer-facing product improvement and deliver a measurable user impact.",
-    "situation": "At Acme, the checkout experience needed a redesign.",
-    "task": "I led the work to improve the checkout experience and conversion.",
+    "requirement": "Own a customer-facing feature end to end, with a measurable product impact.",
+    "situation": "At Acme, the checkout experience was a key customer-facing flow.",
+    "task": "I led its redesign to improve conversion.",
     "action": "I led the checkout redesign. [Specific design and implementation details: xx]",
     "result": "Conversion increased by 12%. [Time taken: xx]",
     "evidence": [
@@ -20,11 +20,11 @@
   },
   {
     "title": "Team management",
-    "requirement": "Take ownership and help a team deliver effectively.",
+    "requirement": "Take ownership and help a lean team deliver effectively.",
     "situation": "At Acme, I managed a team.",
-    "task": "I was responsible for managing the team and supporting its work.",
-    "action": "I managed a team of 6. [Specific management actions: xx]",
-    "result": "[Team outcome: xx] [Time period: xx]",
+    "task": "I was responsible for managing the team and its work.",
+    "action": "I managed a team of 6. [How I supported the team: xx]",
+    "result": "[Team outcome: xx] [Time taken: xx]",
     "evidence": [
       {
         "calculation": null,
@@ -39,11 +39,11 @@
   },
   {
     "title": "Infrastructure cost reduction",
-    "requirement": "Improve operational efficiency while maintaining ownership of product systems.",
+    "requirement": "Improve the efficiency and scalability of the product’s systems.",
     "situation": "At Acme, infrastructure cost was 40k per month.",
     "task": "I worked to reduce the monthly infrastructure cost.",
-    "action": "[Specific actions taken: xx]",
-    "result": "Monthly infrastructure cost fell from 40k to 28k, a saving of 12k. [Time taken: xx]",
+    "action": "I took action to reduce that cost. [Specific actions: xx]",
+    "result": "Monthly cost went from 40k to 28k, a saving of 12k. [Time taken: xx]",
     "evidence": [
       {
         "calculation": null,
@@ -56,29 +56,29 @@
       },
       {
         "calculation": null,
-        "end": 41,
+        "end": 26,
         "field": "result",
         "label": "from your notes",
         "quote": "Led checkout redesign at Acme, conversion up 12%. Managed team of 6. Cut infra cost from 40k to 28k per month.",
-        "start": 38,
+        "start": 23,
         "value": "40k"
       },
       {
         "calculation": null,
-        "end": 48,
+        "end": 33,
         "field": "result",
         "label": "from your notes",
         "quote": "Led checkout redesign at Acme, conversion up 12%. Managed team of 6. Cut infra cost from 40k to 28k per month.",
-        "start": 45,
+        "start": 30,
         "value": "28k"
       },
       {
         "calculation": "40k - 28k = 12k, both from your notes",
-        "end": 65,
+        "end": 50,
         "field": "result",
         "label": "calculated",
         "quote": "Led checkout redesign at Acme, conversion up 12%. Managed team of 6. Cut infra cost from 40k to 28k per month.",
-        "start": 62,
+        "start": 47,
         "value": "12k"
       }
     ]
