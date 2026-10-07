@@ -37,7 +37,8 @@ export const generate = action({
     }
     try {
       for (let attempt = 0; attempt < 2; attempt++) {
-        const response = await writer.generateObject(ctx, {}, {
+        // Isolate each anonymous request without creating an account or saved thread.
+        const response = await writer.generateObject(ctx, { userId: crypto.randomUUID() }, {
           schema: z.object({ stories: z.array(storySchema).length(3) }),
           prompt: `Draft stories using only the responsibilities in this job description. ${attempt ? 'The previous draft failed the number check. Use xx for EVERY numerical expression, including number words and ordinal words, in every field.' : ''}\n<job_description>\n${jd}\n</job_description>`,
         }, { storageOptions: { saveMessages: "none" } });

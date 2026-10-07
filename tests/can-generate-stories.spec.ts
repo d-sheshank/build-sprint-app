@@ -12,6 +12,8 @@ test('paste a real job description and receive exactly three drafts with blank n
   await expect(page.getByRole('alert')).toContainText('Paste more');
   await input.fill(await readFile('tests/real-jd.txt', 'utf8'));
   await button.click();
+  await expect(page.getByRole('status').filter({ hasText: 'Your three drafts are ready.' }).or(page.getByRole('alert'))).toBeVisible({ timeout: 75000 });
+  await expect(page.getByRole('alert')).toHaveCount(0);
   await expect(page.getByRole('status')).toHaveText('Your three drafts are ready.', { timeout: 75000 });
   await expect(page.getByRole('article')).toHaveCount(3);
   const stories = await page.getByRole('article').evaluateAll(articles => articles.map(article => {
