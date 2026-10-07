@@ -1,0 +1,10 @@
+import { chromium } from '@playwright/test';
+import fs from 'node:fs/promises';
+const browser = await chromium.launch({executablePath:'/usr/bin/google-chrome',headless:true,args:['--no-sandbox']});
+const page = await browser.newPage();
+await page.goto('http://localhost:5173');
+await page.getByLabel('Job description',{exact:true}).fill(await fs.readFile('tests/real-jd.txt','utf8'));
+await page.getByRole('button',{name:'Generate three stories'}).click();
+await page.getByRole('alert').waitFor({timeout:60000});
+console.log({error:await page.getByRole('alert').innerText(),retryEnabled:await page.getByRole('button',{name:'Generate three stories'}).isEnabled(),storiesShown:await page.locator('article').count()});
+await browser.close();

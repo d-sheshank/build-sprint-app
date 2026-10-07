@@ -1,0 +1,32 @@
+{
+  "name": "build-sprint-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "test": "node --test tests/storyRules.test.ts",
+    "test:browser": "playwright test",
+    "deploy": "npx @convex-dev/static-hosting deploy"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "@convex-dev/agent": "^0.7.6",
+    "@convex-dev/ai-sdk-provider": "^0.2.1",
+    "@convex-dev/static-hosting": "^0.2.1",
+    "ai": "^7.0.130",
+    "convex": "^1.46.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.3"
+  }
+}
