@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Taking a feature from concept to launch",
+    "requirement": "Partner with product and design to shape and deliver a full-stack, user-facing feature.",
+    "situation": "At [company], I encountered [user problem] affecting [users or workflow].",
+    "task": "I was responsible for shaping a solution with [product, design, and engineering partners] and carrying it through to release.",
+    "action": "I [how you clarified the problem and aligned on scope], then [how you designed and built the user experience and supporting full-stack functionality]. I [how you tested, refined, and shipped the feature].",
+    "result": "The feature’s verified effect on [relevant user or product metric] was [verified outcome; metric and actual outcome: xx]."
+  },
+  {
+    "title": "Building AI into a product workflow",
+    "requirement": "Build AI-powered functionality into a core product experience.",
+    "situation": "At [company], [user problem] created an opportunity to add AI support to [product workflow].",
+    "task": "I owned [project] and needed to identify a useful AI-enabled experience that fit users’ needs and the product’s expectations.",
+    "action": "I [how you explored the workflow and shaped the concept], then [how you implemented the AI interaction and connected it to the surrounding product experience]. I [how you handled evaluation, edge cases, and polish before release].",
+    "result": "The verified outcome for [relevant adoption, quality, or user-effort metric] was [verified outcome; metric and actual outcome: xx]."
+  },
+  {
+    "title": "Improving application performance",
+    "requirement": "Identify and address performance problems in the application.",
+    "situation": "At [company], [user problem] made [part of the application or workflow] feel slow or unreliable.",
+    "task": "I took ownership of investigating the cause and improving the experience without compromising product quality.",
+    "action": "I [how you reproduced and measured the problem], then [how you traced the relevant frontend or backend work and identified a bottleneck]. I [the optimization or fix you actually made] and [how you verified it and checked for regressions].",
+    "result": "The verified change in [relevant performance metric] was [verified outcome; metric and actual outcome: xx]."
+  }
+]

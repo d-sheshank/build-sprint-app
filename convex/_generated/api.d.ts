@@ -8,6 +8,8 @@
  * @module
  */
 
+import type * as aiLimit from "../aiLimit.js";
+import type * as callWindow from "../callWindow.js";
 import type * as stories from "../stories.js";
 
 import type {
@@ -17,6 +19,8 @@ import type {
 } from "convex/server";
 
 declare const fullApi: ApiFromModules<{
+  aiLimit: typeof aiLimit;
+  callWindow: typeof callWindow;
   stories: typeof stories;
 }>;
 

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "tsc --noEmit && vite build",
-    "test": "node --test tests/storyRules.test.ts",
+    "test": "node --test tests/*.test.ts",
     "test:browser": "playwright test",
     "deploy": "npx @convex-dev/static-hosting deploy"
   },
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "typescript": "^7.0.2",

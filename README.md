@@ -8,11 +8,13 @@ Paste a job description and receive exactly three STAR story drafts. The app doe
 - `npx convex dev --once` to push backend functions to the existing Convex deployment.
 - `npm run dev` to open the page locally.
 
-Generation currently uses Convex AI Gateway through the Convex agent component. Convex AI must be enabled for the team. No provider key is sent to the browser. Messages are not saved and threads are not created.
+Generation calls OpenAI directly from a Convex action using `gpt-6-luna` with `max_output_tokens: 2000`. Set `OPENAI_API_KEY` in the Convex deployment environment, never in a `VITE_` variable or frontend code. No Convex AI Gateway is used. OpenAI response storage is disabled.
+
+A shared, atomic Convex reservation caps all AI attempts at thirty in any rolling hour, including retries and failed calls. Only call timestamps are stored. Candidate descriptions and stories are not saved. Provider failures show a plain retry message; missing setup and the hourly limit have their own messages.
 
 ## Check
 
-- `npm test` checks complete story structure and the blank-number rule.
+- `npm test` checks complete story structure, the unchanged blank-number rule, and hourly limit boundaries.
 - `npm run build` checks types and builds the page.
 - `npm run test:browser` opens installed Chrome, pastes the real job description in `tests/real-jd.txt`, checks the output and captures the actual generated text in `tests/generated-stories.txt`.
 
