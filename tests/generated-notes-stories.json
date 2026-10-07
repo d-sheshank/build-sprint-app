@@ -1,9 +1,9 @@
 [
   {
     "title": "Checkout redesign",
-    "requirement": "I take ownership of customer-facing product work and improve the user experience.",
+    "requirement": "Own a customer-facing product improvement and deliver a measurable user impact.",
     "situation": "At Acme, the checkout experience needed a redesign.",
-    "task": "I led the redesign to improve conversion.",
+    "task": "I led the work to improve the checkout experience and conversion.",
     "action": "I led the checkout redesign. [Specific design and implementation details: xx]",
     "result": "Conversion increased by 12%. [Time taken: xx]",
     "evidence": [
@@ -19,12 +19,12 @@
     ]
   },
   {
-    "title": "Team leadership",
-    "requirement": "I can help a lean team execute effectively while taking responsibility for delivery.",
+    "title": "Team management",
+    "requirement": "Take ownership and help a team deliver effectively.",
     "situation": "At Acme, I managed a team.",
-    "task": "I was responsible for managing the team and its work.",
-    "action": "I managed a team of 6. [How I organized the work: xx]",
-    "result": "[Delivery or team outcome: xx] [Time period: xx]",
+    "task": "I was responsible for managing the team and supporting its work.",
+    "action": "I managed a team of 6. [Specific management actions: xx]",
+    "result": "[Team outcome: xx] [Time period: xx]",
     "evidence": [
       {
         "calculation": null,
@@ -39,10 +39,10 @@
   },
   {
     "title": "Infrastructure cost reduction",
-    "requirement": "I look for opportunities to improve performance and operational efficiency.",
+    "requirement": "Improve operational efficiency while maintaining ownership of product systems.",
     "situation": "At Acme, infrastructure cost was 40k per month.",
-    "task": "I worked to reduce that monthly cost.",
-    "action": "[Actions I took to reduce infrastructure cost: xx]",
+    "task": "I worked to reduce the monthly infrastructure cost.",
+    "action": "[Specific actions taken: xx]",
     "result": "Monthly infrastructure cost fell from 40k to 28k, a saving of 12k. [Time taken: xx]",
     "evidence": [
       {

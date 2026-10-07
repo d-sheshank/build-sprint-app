@@ -1,36 +1,36 @@
-Taking a feature from concept to launch
+Taking a feature from idea to launch
 
-For this role: Work with product and design to shape and deliver a customer-facing feature end to end.
-
-Situation
-At [company], I was working on [project] when [user problem] made a new product concept worth exploring.
-Task
-I needed to help define the problem and take the feature from an early idea through implementation and release.
-Action
-I [actions you actually took to clarify the user need with product and design], [actions you actually took to shape the scope and user experience], then [actions you actually took to build, review, and ship the feature].
-Result
-The feature reached [users or audience], with a measurable outcome of [metric and actual outcome: xx].
-Building AI-powered functionality
-
-For this role: Build AI-powered functionality into a product’s core experience.
+For this role: Work with product and design to shape and deliver a new user-facing feature.
 
 Situation
-At [company], users encountered [user problem] while using [project or product area], creating an opportunity to consider an AI-powered workflow.
+At [company], I encountered [user problem] that called for a new product capability.
 Task
-I was responsible for determining how an AI capability could address the problem and fit into the existing user experience.
+I was responsible for helping define the approach and taking [feature or project] from concept through delivery.
 Action
-I [actions you actually took to investigate the workflow and define the AI-assisted experience], [actions you actually took to implement and integrate it], and [actions you actually took to evaluate behavior and refine the experience].
+I [how you partnered with product, design, or founders to clarify the problem], [how you shaped the scope and UX], and [the implementation and coordination steps you actually took to build, test, and ship it].
 Result
-The work had a measurable outcome of [metric and actual outcome: xx], based on [how the outcome was verified].
-Improving application performance
+The feature reached [intended users or audience]. Its verified effect was [metric and actual outcome: xx].
+Improving the collaborative editor
 
-For this role: Identify and address performance issues to make the application faster and more responsive.
+For this role: Update a collaborative content editor used across product surfaces.
 
 Situation
-At [company], [users or team] experienced [user problem] in [project or application area].
+At [company], [user problem] made an existing collaborative editing experience harder to use across [relevant surfaces].
 Task
-I needed to investigate the cause and make a targeted improvement without compromising the user experience.
+I owned [editor change or project] to address the problem while preserving a clear, consistent experience.
 Action
-I [actions you actually took to reproduce and measure the issue], [actions you actually took to identify the bottleneck], then [actions you actually took to implement and validate a change].
+I [how you identified the editor issue], [the changes you actually made to the editing experience or shared components], and [how you checked behavior across relevant surfaces and handled feedback].
 Result
-The verified performance outcome was [metric and actual outcome: xx], measured by [measurement method].
+The verified outcome was [metric and actual outcome: xx], measured by [how the effect was assessed].
+Making the application faster
+
+For this role: Identify and deliver improvements to application performance.
+
+Situation
+At [company], [user problem] indicated that performance in [relevant product area] needed attention.
+Task
+I was responsible for investigating the slowdown and delivering a targeted improvement.
+Action
+I [how you reproduced or measured the issue], [how you identified the cause], and [the code or system changes you actually made], then [how you validated the change].
+Result
+The verified performance outcome was [metric and actual outcome: xx], measured using [relevant measurement].
